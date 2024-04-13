@@ -1,0 +1,78 @@
+
+@font-face{
+  font-family: 'Vermin Vibes';
+  src: url('../src/fonts/vermin_vibes.ttf');
+
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../src/bg-figure.png), linear-gradient(to top right, 
+    rgba(0,0,0,1) 40%, 
+    rgba(28, 224, 212, 1) 60%, 
+    rgba(71, 71, 255, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px ;
+}
+header h1{
+  color: white;
+  font-family: 'Vermin Vibes';
+}
+header nav ul{
+  display: flex;
+  list-style: none;
+}
+header nav ul li{
+  margin: 0 10px;
+}
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #383636;
+  color: white;
+}
+
+footer .footer-left{
+  padding: 10px 40px;
+}
+footer .footer-left div{
+  display: flex;
+}
+footer .footer-left div p{
+  margin: 0 10px; 
+}
+footer .footer-right{
+  display: flex;
+  padding: 10px 40px;
+}
+footer .footer-right h4{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+footer .footer-right .redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

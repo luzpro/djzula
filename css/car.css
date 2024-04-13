@@ -1,0 +1,63 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+table{
+  font-size: 24px;
+  color: white;
+  padding-top: 20px;
+}
+
+thead, tfoot{
+  position: relative;
+}
+tfoot tr:first-child td{
+  padding-top: 50px;
+}
+
+thead::before {
+  content: "";
+  position: absolute;
+  top: -40px; 
+  width: 100%;
+  height: 40px;
+  background-color: #3D62A1; 
+}
+
+tfoot::before {
+  content: "";
+  position: absolute;
+  top: 0px; 
+  left: 0;
+  width: 100%;
+  height: 40px; 
+  background-color: #3D62A1; 
+}
+.space{
+  display: block;
+
+  height: 40px;
+  background-color: #3D62A1;
+}
+.logo-end{
+  display: flex;
+  justify-content: center;
+}
+
+.img-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.img-right img:first-child{
+  width: 250px;
+  height: 250px;
+  margin-bottom: 50px;
+}
+.img-right img:last-child{
+  width: 300px;
+}
